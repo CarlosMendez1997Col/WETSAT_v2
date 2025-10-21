@@ -101,11 +101,11 @@ from sklearn.svm import SVC
 </h2>
 
 ```html
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report, confusion_matrix
-from sklearn.svm import SVC
+https://github.com/sei-latam/WETSAT_v2/tree/main/0_Original_Files/aoi1/aoi1/gamma_dB
+https://github.com/sei-latam/WETSAT_v2/tree/main/0_Original_Files/aoi1/aoi1/gamma_power
+https://github.com/sei-latam/WETSAT_v2/tree/main/0_Original_Files/aoi1/aoi1/points_AOI1_Mask
+https://github.com/sei-latam/WETSAT_v2/tree/main/0_Original_Files/aoi1/aoi1/sigma_dB
+https://github.com/sei-latam/WETSAT_v2/tree/main/0_Original_Files/aoi1/aoi1/sigma_power
 ```
 
 
