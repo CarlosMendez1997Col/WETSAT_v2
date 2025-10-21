@@ -46,4 +46,34 @@ https://colab.research.google.com/github/CarlosMendez1997Sei/WETSAT_v2/blob/main
 
 ### Use and install this repository
 
+HTTPS
+```html
+https://github.com/sei-latam/WETSAT_v2.git
+```
+
+GitHub SSH
+```html
+git@github.com:sei-latam/WETSAT_v2.git
+```
+
+GitHub CLI
+```html
+gh repo clone sei-latam/WETSAT_v2
+```
+GitHub Codespaces
+
+<a href='https://codespaces.new/sei-latam/WETSAT_v2?quickstart=1'><img src='https://github.com/codespaces/badge.svg' alt='Open in GitHub Codespaces' style='max-width: 100%;'></a>
+
+### Libraries, Systems and Frameworks
+
+<h2 align="left">
+
+![Static Badge](https://img.shields.io/badge/Google_Colab-darkorange) </a> <a href="https://colab.research.google.com/" target="_blank" rel="noreferrer"><img width="40" height="40" alt="image" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-colab-icon.png" />
+
+![Static Badge](https://img.shields.io/badge/ScikitLearn-blue) </a><a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> 
+
+![Static Badge](https://img.shields.io/badge/GitHub-gray) </a><a href="https://github.com/" target="_blank" rel="noreferrer"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="tensorflow" width="40" height="40"/> 
+
+</h2>
+
 
