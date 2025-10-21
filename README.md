@@ -3,7 +3,6 @@
   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=500&color=F1F4F7&center=true&vCenter=true&multiline=true&width=550&height=80&lines=Welcome+to+WetSAT-ML;By+Stockholm+Environment+Institute+(SEI))](https://git.io/typing-svg) 
 </h1>
 
-
 <div align="center">
 <table>
 <tr>
@@ -30,20 +29,52 @@ WetSAT-ML Version 2.0
 </table>
 </div>
 
-## Summary
+## Description and Methodology
 
 WetSAT-ML 2.0 (Wetlands flooding extent and trends using SATellite data and Machine Learning) is an open-source in Google Colab package developed by SEI Latin America. It enables monitoring of wetland flooding dynamics using
 Sentinel-1 radar imagery combined with machine learning algorithms.
 
+<div class="figure" style="text-align: left">
+<img src="https://github.com/sei-latam/WETSAT/blob/main/Methodology.png" alt="Figure 1. WetSAT-ML methodology workflow for generating wetland flooding extent and trends using Sentinel-1 data and machine learning." width="100%" />
+<p class="caption">
+Figure 1. WetSAT-ML methodology workflow for generating wetland flooding
+extent and trends using Sentinel-1 data and machine learning.
+</p>
+</div>
 
+The tool WETSAT_v2 allow users to:
+
+- Generate wetland flooding extent maps.
+- Produce water permanence maps.
+- Extract flooded area time series.
+- Quantify intra-annual and inter-annual wetland hydrological trends.
+
+WetSAT-ML uses Sentinel-1 Synthetic Aperture Radar (SAR) data to map water extent, overcoming the limitations of optical data, which often fail in cloudy or dense vegetation conditions.
+
+The algorithm combines radar backscatter from VV and VH polarizations with five radar-derived indices:
+
+| Index | Formula |
+|----|----|
+| **PR - Polarized Ratio** | σ<sub>VH</sub><sup>0</sup> / σ<sub>VV</sub><sup>0</sup> |
+| **NDPI - Normalized Difference Polarized Index** | (σ<sub>VV</sub><sup>0</sup> − σ<sub>VH</sub><sup>0</sup>) / (σ<sub>VV</sub><sup>0</sup> + σ<sub>VH</sub><sup>0</sup>) |
+| **NVHI - Normalized VH Index** | σ<sub>VH</sub><sup>0</sup> / (σ<sub>VV</sub><sup>0</sup> + σ<sub>VH</sub><sup>0</sup>) |
+| **NVVI - Normalized VV Index** | σ<sub>VV</sub><sup>0</sup> / (σ<sub>VV</sub><sup>0</sup> + σ<sub>VH</sub><sup>0</sup>) |
+| **RVI - Radar Vegetation Index** | 4 · σ<sub>VH</sub><sup>0</sup> / (σ<sub>VV</sub><sup>0</sup> + σ<sub>VH</sub><sup>0</sup>) |
+
+These indices characterize the scattering behavior of radar signals
+under different wetland flooding conditions, enabling pixel-level water
+detection.
+
+
+<h2 align="center">
+  
 Master Script Code from Google Colab </a> <a href="https://colab.research.google.com/github/CarlosMendez1997Sei/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/Wetsat_Geoprocessing.ipynb" target="_blank" rel="noreferrer"> 
 <img width="20" height="20" alt="image" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-colab-icon.png" />
-
-Url
+</h2>
+  
 ```html
 https://colab.research.google.com/github/CarlosMendez1997Sei/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/Wetsat_Geoprocessing.ipynb
 ```
-
 ## Use and install this repository
 
 HTTPS
@@ -122,6 +153,7 @@ Version `2.0`
 ```HTML
 https://github.com/sei-latam/WETSAT_v2
 ```
+
 
 
 ## Credits and repository of data
