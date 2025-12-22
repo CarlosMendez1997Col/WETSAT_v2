@@ -40,16 +40,41 @@ Google Colab, <img src="https://uxwing.com/wp-content/themes/uxwing/download/bra
 and  Scikit Learn <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="HTML" width="20" height="20" />
 .The tool processes radar satellite data from the Sentinel-1 mission to generate wetland flooding extent maps, water permanence maps, and quantify key hydrological parameters, including flooded area time series, hydroperiods, and intra- and inter-annual wetland area trends. The algorithm will use machine learning models to characterize the scattering behavior of the radar signal for different wetland flooding conditions, enabling a pixel-level water detection in the satellite images.
 
-<h2 align="left">
-  
-Master Script Code from Google Colab </a> <a href="https://colab.research.google.com/github/CarlosMendez1997Sei/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/Master_WETSAT.ipynb" target="_blank" rel="noreferrer"> 
+<h4 align="left">
+Master Script Random Forest Code from Google Colab </a> <a href="https://colab.research.google.com/github/sei-latam/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/Master_Random_Forest_WetSAT.ipynb" target="_blank" rel="noreferrer"> 
 <img width="20" height="20" alt="image" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-colab-icon.png" />
-</h2>
+</h4>
   
 ```html
-https://colab.research.google.com/github/CarlosMendez1997Sei/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/Wetsat_Geoprocessing.ipynb
+https://colab.research.google.com/github/sei-latam/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/Master_Random_Forest_WetSAT.ipynb
 ```
 
+<h4 align="left">  
+Master Script K-means Code from Google Colab </a> <a href="https://colab.research.google.com/github/CarlosMendez1997Sei/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/Master_Kmeans.ipynb" target="_blank" rel="noreferrer"> 
+<img width="20" height="20" alt="image" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-colab-icon.png" />
+</h4>
+  
+```html
+https://colab.research.google.com/github/CarlosMendez1997Sei/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/Master_Kmeans.ipynb
+```
+
+<h4 align="left">
+User Script Random Forest Code from Google Colab </a> <a href="https://colab.research.google.com/github/sei-latam/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/User_Version_Random_Forest_WetSAT.ipynb" target="_blank" rel="noreferrer"> 
+<img width="20" height="20" alt="image" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-colab-icon.png" />
+</h4>
+  
+```html
+https://colab.research.google.com/github/sei-latam/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/User_Version_Random_Forest_WetSAT.ipynb
+```
+  
+<h4 align="left">
+User Script K-means Code from Google Colab </a> <a href="https://colab.research.google.com/github/sei-latam/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/User_Version_Kmeans_WetSAT.ipynb" target="_blank" rel="noreferrer"> 
+<img width="20" height="20" alt="image" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-colab-icon.png" />
+</h4>
+  
+```html
+https://colab.research.google.com/github/sei-latam/WETSAT_v2/blob/main/2_Modelling_WETSAT_Google_Colab/User_Version_Kmeans_WetSAT.ipynb
+```
 
 The tool WetSAT-ML allow users to:
 
